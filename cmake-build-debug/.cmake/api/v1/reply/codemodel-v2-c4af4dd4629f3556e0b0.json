@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CF",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1697d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1697d-Debug-11112ee44807a2d3238e.json",
+					"name" : "1697d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1739f::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1739f-Debug-002d5a912e037d4fd66a.json",
+					"name" : "1739f",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1942g::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1942g-Debug-46225340b6228f8623eb.json",
+					"name" : "1942g",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2003e1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2003e1-Debug-b84d92270873cd694d3d.json",
+					"name" : "2003e1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2006D::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2006D-Debug-6d60798d08581e285111.json",
+					"name" : "2006D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2021d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2021d-Debug-397de9375294ad3e3f1a.json",
+					"name" : "2021d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "932f::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-932f-Debug-6bd8e869de7e62b475e5.json",
+					"name" : "932f",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Code/CF/cmake-build-debug",
+		"source" : "E:/Code/CF"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
