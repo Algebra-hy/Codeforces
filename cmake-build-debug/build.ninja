@@ -39,7 +39,502 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = E$:/Code/CF/cmake-build-debug/
+cmake_ninja_workdir = E$:/Code/Codeforces/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target CF
+
+
+#############################################
+# Order-only phony target for CF
+
+build cmake_object_order_depends_target_CF: phony || CMakeFiles/CF.dir
+
+build CMakeFiles/CF.dir/main.cpp.obj: CXX_COMPILER__CF_unscanned_Debug E$:/Code/Codeforces/main.cpp || cmake_object_order_depends_target_CF
+  DEP_FILE = CMakeFiles\CF.dir\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF
+
+
+#############################################
+# Link the executable CF.exe
+
+build CF.exe: CXX_EXECUTABLE_LINKER__CF_Debug CMakeFiles/CF.dir/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF.exe
+  TARGET_IMPLIB = libCF.dll.a
+  TARGET_PDB = CF.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2002d2
+
+
+#############################################
+# Order-only phony target for 2002d2
+
+build cmake_object_order_depends_target_2002d2: phony || CMakeFiles/2002d2.dir
+
+build CMakeFiles/2002d2.dir/2002d2.cpp.obj: CXX_COMPILER__2002d2_unscanned_Debug E$:/Code/Codeforces/2002d2.cpp || cmake_object_order_depends_target_2002d2
+  DEP_FILE = CMakeFiles\2002d2.dir\2002d2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2002d2.dir
+  OBJECT_FILE_DIR = CMakeFiles\2002d2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2002d2
+
+
+#############################################
+# Link the executable 2002d2.exe
+
+build 2002d2.exe: CXX_EXECUTABLE_LINKER__2002d2_Debug CMakeFiles/2002d2.dir/2002d2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2002d2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2002d2.exe
+  TARGET_IMPLIB = lib2002d2.dll.a
+  TARGET_PDB = 2002d2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2004f
+
+
+#############################################
+# Order-only phony target for 2004f
+
+build cmake_object_order_depends_target_2004f: phony || CMakeFiles/2004f.dir
+
+build CMakeFiles/2004f.dir/2004f.cpp.obj: CXX_COMPILER__2004f_unscanned_Debug E$:/Code/Codeforces/2004f.cpp || cmake_object_order_depends_target_2004f
+  DEP_FILE = CMakeFiles\2004f.dir\2004f.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2004f.dir
+  OBJECT_FILE_DIR = CMakeFiles\2004f.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2004f
+
+
+#############################################
+# Link the executable 2004f.exe
+
+build 2004f.exe: CXX_EXECUTABLE_LINKER__2004f_Debug CMakeFiles/2004f.dir/2004f.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2004f.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2004f.exe
+  TARGET_IMPLIB = lib2004f.dll.a
+  TARGET_PDB = 2004f.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2003f
+
+
+#############################################
+# Order-only phony target for 2003f
+
+build cmake_object_order_depends_target_2003f: phony || CMakeFiles/2003f.dir
+
+build CMakeFiles/2003f.dir/2003f.cpp.obj: CXX_COMPILER__2003f_unscanned_Debug E$:/Code/Codeforces/2003f.cpp || cmake_object_order_depends_target_2003f
+  DEP_FILE = CMakeFiles\2003f.dir\2003f.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2003f.dir
+  OBJECT_FILE_DIR = CMakeFiles\2003f.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2003f
+
+
+#############################################
+# Link the executable 2003f.exe
+
+build 2003f.exe: CXX_EXECUTABLE_LINKER__2003f_Debug CMakeFiles/2003f.dir/2003f.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2003f.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2003f.exe
+  TARGET_IMPLIB = lib2003f.dll.a
+  TARGET_PDB = 2003f.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1967c
+
+
+#############################################
+# Order-only phony target for 1967c
+
+build cmake_object_order_depends_target_1967c: phony || CMakeFiles/1967c.dir
+
+build CMakeFiles/1967c.dir/1967c.cpp.obj: CXX_COMPILER__1967c_unscanned_Debug E$:/Code/Codeforces/1967c.cpp || cmake_object_order_depends_target_1967c
+  DEP_FILE = CMakeFiles\1967c.dir\1967c.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1967c.dir
+  OBJECT_FILE_DIR = CMakeFiles\1967c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1967c
+
+
+#############################################
+# Link the executable 1967c.exe
+
+build 1967c.exe: CXX_EXECUTABLE_LINKER__1967c_Debug CMakeFiles/1967c.dir/1967c.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1967c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1967c.exe
+  TARGET_IMPLIB = lib1967c.dll.a
+  TARGET_PDB = 1967c.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1979e
+
+
+#############################################
+# Order-only phony target for 1979e
+
+build cmake_object_order_depends_target_1979e: phony || CMakeFiles/1979e.dir
+
+build CMakeFiles/1979e.dir/1979e.cpp.obj: CXX_COMPILER__1979e_unscanned_Debug E$:/Code/Codeforces/1979e.cpp || cmake_object_order_depends_target_1979e
+  DEP_FILE = CMakeFiles\1979e.dir\1979e.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1979e.dir
+  OBJECT_FILE_DIR = CMakeFiles\1979e.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1979e
+
+
+#############################################
+# Link the executable 1979e.exe
+
+build 1979e.exe: CXX_EXECUTABLE_LINKER__1979e_Debug CMakeFiles/1979e.dir/1979e.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1979e.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1979e.exe
+  TARGET_IMPLIB = lib1979e.dll.a
+  TARGET_PDB = 1979e.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1913f
+
+
+#############################################
+# Order-only phony target for 1913f
+
+build cmake_object_order_depends_target_1913f: phony || CMakeFiles/1913f.dir
+
+build CMakeFiles/1913f.dir/1913f.cpp.obj: CXX_COMPILER__1913f_unscanned_Debug E$:/Code/Codeforces/1913f.cpp || cmake_object_order_depends_target_1913f
+  DEP_FILE = CMakeFiles\1913f.dir\1913f.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1913f.dir
+  OBJECT_FILE_DIR = CMakeFiles\1913f.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1913f
+
+
+#############################################
+# Link the executable 1913f.exe
+
+build 1913f.exe: CXX_EXECUTABLE_LINKER__1913f_Debug CMakeFiles/1913f.dir/1913f.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1913f.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1913f.exe
+  TARGET_IMPLIB = lib1913f.dll.a
+  TARGET_PDB = 1913f.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1780g
+
+
+#############################################
+# Order-only phony target for 1780g
+
+build cmake_object_order_depends_target_1780g: phony || CMakeFiles/1780g.dir
+
+build CMakeFiles/1780g.dir/1780g.cpp.obj: CXX_COMPILER__1780g_unscanned_Debug E$:/Code/Codeforces/1780g.cpp || cmake_object_order_depends_target_1780g
+  DEP_FILE = CMakeFiles\1780g.dir\1780g.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1780g.dir
+  OBJECT_FILE_DIR = CMakeFiles\1780g.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1780g
+
+
+#############################################
+# Link the executable 1780g.exe
+
+build 1780g.exe: CXX_EXECUTABLE_LINKER__1780g_Debug CMakeFiles/1780g.dir/1780g.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1780g.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1780g.exe
+  TARGET_IMPLIB = lib1780g.dll.a
+  TARGET_PDB = 1780g.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1739f
+
+
+#############################################
+# Order-only phony target for 1739f
+
+build cmake_object_order_depends_target_1739f: phony || CMakeFiles/1739f.dir
+
+build CMakeFiles/1739f.dir/1739f.cpp.obj: CXX_COMPILER__1739f_unscanned_Debug E$:/Code/Codeforces/1739f.cpp || cmake_object_order_depends_target_1739f
+  DEP_FILE = CMakeFiles\1739f.dir\1739f.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1739f.dir
+  OBJECT_FILE_DIR = CMakeFiles\1739f.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1739f
+
+
+#############################################
+# Link the executable 1739f.exe
+
+build 1739f.exe: CXX_EXECUTABLE_LINKER__1739f_Debug CMakeFiles/1739f.dir/1739f.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1739f.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1739f.exe
+  TARGET_IMPLIB = lib1739f.dll.a
+  TARGET_PDB = 1739f.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 932g
+
+
+#############################################
+# Order-only phony target for 932g
+
+build cmake_object_order_depends_target_932g: phony || CMakeFiles/932g.dir
+
+build CMakeFiles/932g.dir/932g.cpp.obj: CXX_COMPILER__932g_unscanned_Debug E$:/Code/Codeforces/932g.cpp || cmake_object_order_depends_target_932g
+  DEP_FILE = CMakeFiles\932g.dir\932g.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\932g.dir
+  OBJECT_FILE_DIR = CMakeFiles\932g.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 932g
+
+
+#############################################
+# Link the executable 932g.exe
+
+build 932g.exe: CXX_EXECUTABLE_LINKER__932g_Debug CMakeFiles/932g.dir/932g.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\932g.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 932g.exe
+  TARGET_IMPLIB = lib932g.dll.a
+  TARGET_PDB = 932g.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 932gstd
+
+
+#############################################
+# Order-only phony target for 932gstd
+
+build cmake_object_order_depends_target_932gstd: phony || CMakeFiles/932gstd.dir
+
+build CMakeFiles/932gstd.dir/932Gstd.cpp.obj: CXX_COMPILER__932gstd_unscanned_Debug E$:/Code/Codeforces/932Gstd.cpp || cmake_object_order_depends_target_932gstd
+  DEP_FILE = CMakeFiles\932gstd.dir\932Gstd.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\932gstd.dir
+  OBJECT_FILE_DIR = CMakeFiles\932gstd.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 932gstd
+
+
+#############################################
+# Link the executable 932gstd.exe
+
+build 932gstd.exe: CXX_EXECUTABLE_LINKER__932gstd_Debug CMakeFiles/932gstd.dir/932Gstd.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\932gstd.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 932gstd.exe
+  TARGET_IMPLIB = lib932gstd.dll.a
+  TARGET_PDB = 932gstd.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2020f
+
+
+#############################################
+# Order-only phony target for 2020f
+
+build cmake_object_order_depends_target_2020f: phony || CMakeFiles/2020f.dir
+
+build CMakeFiles/2020f.dir/2020f.cpp.obj: CXX_COMPILER__2020f_unscanned_Debug E$:/Code/Codeforces/2020f.cpp || cmake_object_order_depends_target_2020f
+  DEP_FILE = CMakeFiles\2020f.dir\2020f.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2020f.dir
+  OBJECT_FILE_DIR = CMakeFiles\2020f.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2020f
+
+
+#############################################
+# Link the executable 2020f.exe
+
+build 2020f.exe: CXX_EXECUTABLE_LINKER__2020f_Debug CMakeFiles/2020f.dir/2020f.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2020f.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2020f.exe
+  TARGET_IMPLIB = lib2020f.dll.a
+  TARGET_PDB = 2020f.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1993f2
+
+
+#############################################
+# Order-only phony target for 1993f2
+
+build cmake_object_order_depends_target_1993f2: phony || CMakeFiles/1993f2.dir
+
+build CMakeFiles/1993f2.dir/1993f2.cpp.obj: CXX_COMPILER__1993f2_unscanned_Debug E$:/Code/Codeforces/1993f2.cpp || cmake_object_order_depends_target_1993f2
+  DEP_FILE = CMakeFiles\1993f2.dir\1993f2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1993f2.dir
+  OBJECT_FILE_DIR = CMakeFiles\1993f2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1993f2
+
+
+#############################################
+# Link the executable 1993f2.exe
+
+build 1993f2.exe: CXX_EXECUTABLE_LINKER__1993f2_Debug CMakeFiles/1993f2.dir/1993f2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1993f2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1993f2.exe
+  TARGET_IMPLIB = lib1993f2.dll.a
+  TARGET_PDB = 1993f2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2020fstd
+
+
+#############################################
+# Order-only phony target for 2020fstd
+
+build cmake_object_order_depends_target_2020fstd: phony || CMakeFiles/2020fstd.dir
+
+build CMakeFiles/2020fstd.dir/2020fstd.cpp.obj: CXX_COMPILER__2020fstd_unscanned_Debug E$:/Code/Codeforces/2020fstd.cpp || cmake_object_order_depends_target_2020fstd
+  DEP_FILE = CMakeFiles\2020fstd.dir\2020fstd.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2020fstd.dir
+  OBJECT_FILE_DIR = CMakeFiles\2020fstd.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2020fstd
+
+
+#############################################
+# Link the executable 2020fstd.exe
+
+build 2020fstd.exe: CXX_EXECUTABLE_LINKER__2020fstd_Debug CMakeFiles/2020fstd.dir/2020fstd.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2020fstd.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2020fstd.exe
+  TARGET_IMPLIB = lib2020fstd.dll.a
+  TARGET_PDB = 2020fstd.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2021d
+
+
+#############################################
+# Order-only phony target for 2021d
+
+build cmake_object_order_depends_target_2021d: phony || CMakeFiles/2021d.dir
+
+build CMakeFiles/2021d.dir/2021d.cpp.obj: CXX_COMPILER__2021d_unscanned_Debug E$:/Code/Codeforces/2021d.cpp || cmake_object_order_depends_target_2021d
+  DEP_FILE = CMakeFiles\2021d.dir\2021d.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2021d.dir
+  OBJECT_FILE_DIR = CMakeFiles\2021d.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2021d
+
+
+#############################################
+# Link the executable 2021d.exe
+
+build 2021d.exe: CXX_EXECUTABLE_LINKER__2021d_Debug CMakeFiles/2021d.dir/2021d.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2021d.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2021d.exe
+  TARGET_IMPLIB = lib2021d.dll.a
+  TARGET_PDB = 2021d.exe.dbg
+
 # =============================================================================
 # Object build statements for EXECUTABLE target 2006D
 
@@ -49,7 +544,7 @@ cmake_ninja_workdir = E$:/Code/CF/cmake-build-debug/
 
 build cmake_object_order_depends_target_2006D: phony || CMakeFiles/2006D.dir
 
-build CMakeFiles/2006D.dir/2006D.cpp.obj: CXX_COMPILER__2006D_unscanned_Debug E$:/Code/CF/2006D.cpp || cmake_object_order_depends_target_2006D
+build CMakeFiles/2006D.dir/2006D.cpp.obj: CXX_COMPILER__2006D_unscanned_Debug E$:/Code/Codeforces/2006D.cpp || cmake_object_order_depends_target_2006D
   DEP_FILE = CMakeFiles\2006D.dir\2006D.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\2006D.dir
@@ -82,7 +577,7 @@ build 2006D.exe: CXX_EXECUTABLE_LINKER__2006D_Debug CMakeFiles/2006D.dir/2006D.c
 
 build cmake_object_order_depends_target_1697d: phony || CMakeFiles/1697d.dir
 
-build CMakeFiles/1697d.dir/1697d.cpp.obj: CXX_COMPILER__1697d_unscanned_Debug E$:/Code/CF/1697d.cpp || cmake_object_order_depends_target_1697d
+build CMakeFiles/1697d.dir/1697d.cpp.obj: CXX_COMPILER__1697d_unscanned_Debug E$:/Code/Codeforces/1697d.cpp || cmake_object_order_depends_target_1697d
   DEP_FILE = CMakeFiles\1697d.dir\1697d.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\1697d.dir
@@ -115,7 +610,7 @@ build 1697d.exe: CXX_EXECUTABLE_LINKER__1697d_Debug CMakeFiles/1697d.dir/1697d.c
 
 build cmake_object_order_depends_target_2003e1: phony || CMakeFiles/2003e1.dir
 
-build CMakeFiles/2003e1.dir/2003e.cpp.obj: CXX_COMPILER__2003e1_unscanned_Debug E$:/Code/CF/2003e.cpp || cmake_object_order_depends_target_2003e1
+build CMakeFiles/2003e1.dir/2003e.cpp.obj: CXX_COMPILER__2003e1_unscanned_Debug E$:/Code/Codeforces/2003e.cpp || cmake_object_order_depends_target_2003e1
   DEP_FILE = CMakeFiles\2003e1.dir\2003e.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\2003e1.dir
@@ -140,39 +635,6 @@ build 2003e1.exe: CXX_EXECUTABLE_LINKER__2003e1_Debug CMakeFiles/2003e1.dir/2003
   TARGET_PDB = 2003e1.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 1739f
-
-
-#############################################
-# Order-only phony target for 1739f
-
-build cmake_object_order_depends_target_1739f: phony || CMakeFiles/1739f.dir
-
-build CMakeFiles/1739f.dir/1739f.cpp.obj: CXX_COMPILER__1739f_unscanned_Debug E$:/Code/CF/1739f.cpp || cmake_object_order_depends_target_1739f
-  DEP_FILE = CMakeFiles\1739f.dir\1739f.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\1739f.dir
-  OBJECT_FILE_DIR = CMakeFiles\1739f.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 1739f
-
-
-#############################################
-# Link the executable 1739f.exe
-
-build 1739f.exe: CXX_EXECUTABLE_LINKER__1739f_Debug CMakeFiles/1739f.dir/1739f.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\1739f.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 1739f.exe
-  TARGET_IMPLIB = lib1739f.dll.a
-  TARGET_PDB = 1739f.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target 1942g
 
 
@@ -181,7 +643,7 @@ build 1739f.exe: CXX_EXECUTABLE_LINKER__1739f_Debug CMakeFiles/1739f.dir/1739f.c
 
 build cmake_object_order_depends_target_1942g: phony || CMakeFiles/1942g.dir
 
-build CMakeFiles/1942g.dir/1942g.cpp.obj: CXX_COMPILER__1942g_unscanned_Debug E$:/Code/CF/1942g.cpp || cmake_object_order_depends_target_1942g
+build CMakeFiles/1942g.dir/1942g.cpp.obj: CXX_COMPILER__1942g_unscanned_Debug E$:/Code/Codeforces/1942g.cpp || cmake_object_order_depends_target_1942g
   DEP_FILE = CMakeFiles\1942g.dir\1942g.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\1942g.dir
@@ -206,39 +668,6 @@ build 1942g.exe: CXX_EXECUTABLE_LINKER__1942g_Debug CMakeFiles/1942g.dir/1942g.c
   TARGET_PDB = 1942g.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 2021d
-
-
-#############################################
-# Order-only phony target for 2021d
-
-build cmake_object_order_depends_target_2021d: phony || CMakeFiles/2021d.dir
-
-build CMakeFiles/2021d.dir/2021d.cpp.obj: CXX_COMPILER__2021d_unscanned_Debug E$:/Code/CF/2021d.cpp || cmake_object_order_depends_target_2021d
-  DEP_FILE = CMakeFiles\2021d.dir\2021d.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\2021d.dir
-  OBJECT_FILE_DIR = CMakeFiles\2021d.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 2021d
-
-
-#############################################
-# Link the executable 2021d.exe
-
-build 2021d.exe: CXX_EXECUTABLE_LINKER__2021d_Debug CMakeFiles/2021d.dir/2021d.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\2021d.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 2021d.exe
-  TARGET_IMPLIB = lib2021d.dll.a
-  TARGET_PDB = 2021d.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target 932f
 
 
@@ -247,7 +676,7 @@ build 2021d.exe: CXX_EXECUTABLE_LINKER__2021d_Debug CMakeFiles/2021d.dir/2021d.c
 
 build cmake_object_order_depends_target_932f: phony || CMakeFiles/932f.dir
 
-build CMakeFiles/932f.dir/932f.cpp.obj: CXX_COMPILER__932f_unscanned_Debug E$:/Code/CF/932f.cpp || cmake_object_order_depends_target_932f
+build CMakeFiles/932f.dir/932f.cpp.obj: CXX_COMPILER__932f_unscanned_Debug E$:/Code/Codeforces/932f.cpp || cmake_object_order_depends_target_932f
   DEP_FILE = CMakeFiles\932f.dir\932f.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\932f.dir
@@ -271,12 +700,45 @@ build 932f.exe: CXX_EXECUTABLE_LINKER__932f_Debug CMakeFiles/932f.dir/932f.cpp.o
   TARGET_IMPLIB = lib932f.dll.a
   TARGET_PDB = 932f.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1975f
+
+
+#############################################
+# Order-only phony target for 1975f
+
+build cmake_object_order_depends_target_1975f: phony || CMakeFiles/1975f.dir
+
+build CMakeFiles/1975f.dir/1975f.cpp.obj: CXX_COMPILER__1975f_unscanned_Debug E$:/Code/Codeforces/1975f.cpp || cmake_object_order_depends_target_1975f
+  DEP_FILE = CMakeFiles\1975f.dir\1975f.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1975f.dir
+  OBJECT_FILE_DIR = CMakeFiles\1975f.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1975f
+
+
+#############################################
+# Link the executable 1975f.exe
+
+build 1975f.exe: CXX_EXECUTABLE_LINKER__1975f_Debug CMakeFiles/1975f.dir/1975f.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1975f.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1975f.exe
+  TARGET_IMPLIB = lib1975f.dll.a
+  TARGET_PDB = 1975f.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D E:\Code\CF\cmake-build-debug && "D:\Language\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D E:\Code\Codeforces\cmake-build-debug && "D:\Language\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -287,7 +749,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D E:\Code\CF\cmake-build-debug && "D:\Language\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\Code\CF -BE:\Code\CF\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D E:\Code\Codeforces\cmake-build-debug && "D:\Language\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\Code\Codeforces -BE:\Code\Codeforces\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -301,15 +763,43 @@ build 1697d: phony 1697d.exe
 
 build 1739f: phony 1739f.exe
 
+build 1780g: phony 1780g.exe
+
+build 1913f: phony 1913f.exe
+
 build 1942g: phony 1942g.exe
+
+build 1967c: phony 1967c.exe
+
+build 1975f: phony 1975f.exe
+
+build 1979e: phony 1979e.exe
+
+build 1993f2: phony 1993f2.exe
+
+build 2002d2: phony 2002d2.exe
 
 build 2003e1: phony 2003e1.exe
 
+build 2003f: phony 2003f.exe
+
+build 2004f: phony 2004f.exe
+
 build 2006D: phony 2006D.exe
+
+build 2020f: phony 2020f.exe
+
+build 2020fstd: phony 2020fstd.exe
 
 build 2021d: phony 2021d.exe
 
 build 932f: phony 932f.exe
+
+build 932g: phony 932g.exe
+
+build 932gstd: phony 932gstd.exe
+
+build CF: phony CF.exe
 
 # =============================================================================
 # Folder targets.
@@ -317,9 +807,9 @@ build 932f: phony 932f.exe
 # =============================================================================
 
 #############################################
-# Folder: E:/Code/CF/cmake-build-debug
+# Folder: E:/Code/Codeforces/cmake-build-debug
 
-build all: phony 2006D.exe 1697d.exe 2003e1.exe 1739f.exe 1942g.exe 2021d.exe 932f.exe
+build all: phony CF.exe 2002d2.exe 2004f.exe 2003f.exe 1967c.exe 1979e.exe 1913f.exe 1780g.exe 1739f.exe 932g.exe 932gstd.exe 2020f.exe 1993f2.exe 2020fstd.exe 2021d.exe 2006D.exe 1697d.exe 2003e1.exe 1942g.exe 932f.exe 1975f.exe
 
 # =============================================================================
 # Built-in targets
@@ -328,14 +818,14 @@ build all: phony 2006D.exe 1697d.exe 2003e1.exe 1739f.exe 1942g.exe 2021d.exe 93
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake E$:/Code/CF/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake E$:/Code/Codeforces/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake E$:/Code/CF/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/Language/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake E$:/Code/Codeforces/CMakeLists.txt: phony
 
 
 #############################################

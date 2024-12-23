@@ -1,7 +1,7 @@
-cmake_minimum_required(VERSION 3.29)
+cmake_minimum_required(VERSION 3.26)
 project(CF)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 17)
 
 add_executable(CF main.cpp)
 add_executable(2002d2 2002d2.cpp)
@@ -21,7 +21,7 @@ add_executable(2021d 2021d.cpp)
 add_executable(2006D 2006D.cpp)
 add_executable(1697d 1697d.cpp)
 add_executable(2003e1 2003e.cpp)
-add_executable(1739f 1739f.cpp)
 add_executable(1942g 1942g.cpp)
-add_executable(2021d 2021d.cpp)
 add_executable(932f 932f.cpp)
+add_executable(1975f 1975f.cpp)
+
